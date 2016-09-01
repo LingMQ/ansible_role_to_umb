@@ -1,0 +1,9 @@
+---
+- hosts: all
+
+  roles:
+    - messagebus
+
+  tasks:
+    - command: /bin/false
+
